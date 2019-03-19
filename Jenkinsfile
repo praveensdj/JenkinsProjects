@@ -1,7 +1,6 @@
 pipeline {
-    agent {
-        label "windows"
-    }
+    agent any
+    
     tools {
         maven 'apigee-maven'
         jdk 'Java'
