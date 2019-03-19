@@ -21,7 +21,7 @@ pipeline {
             }
              post {
                 success {
-                    echo "SUCCESS!!"
+                    echo "feature SUCCESS!!"
                         }
                  }
                
